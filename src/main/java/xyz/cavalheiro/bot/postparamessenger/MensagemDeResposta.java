@@ -8,7 +8,7 @@ import java.util.List;
 public class MensagemDeResposta {
 
     static List<Mensagem> mensagens = Arrays.asList(new IdadeMensagem(), new NomeMensagem(),new FaixaEtaria()
-            , new DefaultMensagem());
+            ,new DefaultMensagem());
 
     public String manipularMensagemTexto(String msg) {
         String mensagemParaUsuario = "";

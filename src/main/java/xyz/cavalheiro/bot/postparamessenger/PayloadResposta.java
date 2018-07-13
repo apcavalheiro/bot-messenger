@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import xyz.cavalheiro.bot.model.mapeamentosaida.BodySaida;
 import xyz.cavalheiro.bot.model.mapeamentosaida.MessageSaida;
 import xyz.cavalheiro.bot.model.mapeamentosaida.RecipientSaida;
-import xyz.cavalheiro.bot.model.mapeamentosaida.SenderIdEMensagem;
+import xyz.cavalheiro.bot.model.mapeamentoentrada.SenderIdEMensagem;
 
 public class PayloadResposta {
     MensagemDeResposta mensagemDeResposta = new MensagemDeResposta();

@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import xyz.cavalheiro.bot.model.mapeamentoentrada.BodyEntrada;
 import xyz.cavalheiro.bot.postparamessenger.PayloadResposta;
-import xyz.cavalheiro.bot.model.mapeamentosaida.SenderIdEMensagem;
+import xyz.cavalheiro.bot.model.mapeamentoentrada.SenderIdEMensagem;
 
 @RestController
 @RequestMapping(value = "/bot")

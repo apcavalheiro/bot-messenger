@@ -5,7 +5,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.web.client.RestTemplate;
 
-import static xyz.cavalheiro.bot.util.Constante.URL;
+import static xyz.cavalheiro.bot.util.Constantes.URL;
 
 public class PostMessenger {
 
