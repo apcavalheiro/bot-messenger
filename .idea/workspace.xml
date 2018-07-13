@@ -7,12 +7,17 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/controller/WebHookControllerRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/controller/WebHookControllerRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/FaixaEtaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/FaixaEtaria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/IdadeMensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/IdadeMensagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/SenderIdEMensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/SenderIdEMensagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/SenderIdEMensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/SenderIdEMensagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/BodySaida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/BodySaida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/MensagemDeResposta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/MensagemDeResposta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PayloadResposta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PayloadResposta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PostMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PostMessenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/util/Constante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/util/Constantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/controller/WebHookControllerRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/controller/WebHookControllerRest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/mensagens/FaixaEtaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/mensagens/FaixaEtaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/model/mapeamentoentrada/SenderIdEMensagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/model/mapeamentoentrada/SenderIdEMensagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/model/mapeamentosaida/BodySaida.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/model/mapeamentosaida/BodySaida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/postparamessenger/MensagemDeResposta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/postparamessenger/MensagemDeResposta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/postparamessenger/PayloadResposta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/postparamessenger/PayloadResposta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xyz/cavalheiro/bot/util/Teste.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,77 +35,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FaixaEtaria.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/FaixaEtaria.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdadeMensagem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/IdadeMensagem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MensagemDeResposta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/MensagemDeResposta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebHookControllerRest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebHookControllerRest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/controller/WebHookControllerRest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SenderIdEMensagem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/SenderIdEMensagem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="264">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayloadResposta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PayloadResposta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostMessenger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PostMessenger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#797#808#0" />
+                <element signature="e#965#977#0" />
+                <element signature="method#receberBodyMessenger#0;class#WebHookControllerRest#0" />
               </folding>
             </state>
           </provider>
@@ -122,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/BotApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/entrada/BodyEntrada.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/entrada/Sender.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/entrada/Entry.java" />
@@ -150,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/util/Constante.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/trataidemensagem/SenderIdEMensagem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/controller/WebHookControllerRest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PostMessenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeandosaida/BodySaida.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeandosaida/MessageSaida.java" />
@@ -160,7 +101,6 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeandoentrada/Messaging.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeandoentrada/Sender.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeandosaida/SenderIdEMensagem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PayloadResposta.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeandoentrada/BodyEntrada.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/Mensagem.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/NomeMensagem.java" />
@@ -169,10 +109,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/SenderIdEMensagem.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/util/Teste.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/MensagemDeResposta.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/SenderIdEMensagem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/IdadeMensagem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/BodySaida.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/FaixaEtaria.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/IdadeMensagem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PayloadResposta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/MensagemDeResposta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/controller/WebHookControllerRest.java" />
       </list>
     </option>
   </component>
@@ -210,8 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,16 +221,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bot" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="mapeamentoentrada" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="mapeamentosaida" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -301,11 +232,22 @@
               <item name="bot" type="462c0819:PsiDirectoryNode" />
               <item name="postparamessenger" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bot" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,6 +378,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -450,20 +393,20 @@
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.24166666" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49924242" weight="0.37704918" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32843137" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="4" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
@@ -474,11 +417,11 @@
       <window_info anchor="bottom" id="Run" order="6" weight="0.6196721" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24166666" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="3" />
@@ -489,7 +432,7 @@
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49924242" weight="0.32843137" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32954547" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -500,33 +443,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/FaixaEtaria.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/FaixaEtaria.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/FaixaEtaria.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/FaixaEtaria.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="47" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -667,80 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/util/Constantes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/NomeMensagem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/Mensagem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/BodyEntrada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/Messaging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/MessageSaida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/RecipientSaida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -759,23 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/BodySaida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/DefaultMensagem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/NumberFormatException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -783,13 +613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/util/Teste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/util/Teste.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
@@ -832,72 +656,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/SenderIdEMensagem.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="44">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PayloadResposta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#enviarMensagem#0;class#PayloadResposta#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/MensagemDeResposta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="method#manipularMensagemTexto#0;class#MensagemDeResposta#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PostMessenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="88">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#postMessenger#0;class#PostMessenger#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/controller/WebHookControllerRest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/BodySaida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="264">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="method#BodySaida#0;class#BodySaida#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/MessageSaida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentosaida/RecipientSaida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/BodyEntrada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/PayloadResposta.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/Messaging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/postparamessenger/MensagemDeResposta.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/model/mapeamentoentrada/SenderIdEMensagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#SenderIdEMensagem#0;class#SenderIdEMensagem#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/util/Constantes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/DefaultMensagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="method#criaMensagem#0;class#DefaultMensagem#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/IdadeMensagem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="154">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/Mensagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/NomeMensagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
+            <element signature="method#verifica#0;class#NomeMensagem#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/mensagens/FaixaEtaria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+        <state relative-caret-position="462">
+          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+          <folding>
+            <element signature="method#verifica#0;class#FaixaEtaria#0" />
+            <element signature="method#criaMensagem#0;class#FaixaEtaria#0" />
+            <element signature="method#verificaIdadeNumerica#0;class#FaixaEtaria#0" />
+            <element signature="method#verificaIdadeExtenso#0;class#FaixaEtaria#0" />
+            <element signature="method#retornaMensagemFaixaEtaria#0;class#FaixaEtaria#0" />
+            <element signature="method#converteIdade#0;class#FaixaEtaria#0" />
+            <element signature="method#alterarMensagemIdadeNumerica#0;class#FaixaEtaria#0" />
+            <element signature="method#alterarMensagemIdadePorExtenso#0;class#FaixaEtaria#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/cavalheiro/bot/controller/WebHookControllerRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#797#808#0" />
+            <element signature="e#965#977#0" />
+            <element signature="method#receberBodyMessenger#0;class#WebHookControllerRest#0" />
+          </folding>
         </state>
       </provider>
     </entry>

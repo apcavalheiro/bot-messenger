@@ -11,8 +11,8 @@ public class BodySaida {
     private RecipientSaida recipient;
     private MessageSaida message;
 
-    public BodySaida(String messagingType, RecipientSaida recipient, MessageSaida message) {
-        this.messagingType = messagingType;
+    public BodySaida( RecipientSaida recipient, MessageSaida message) {
+        this.messagingType = "RESPONSE";
         this.recipient = recipient;
         this.message = message;
     }

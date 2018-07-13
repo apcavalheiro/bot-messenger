@@ -8,6 +8,6 @@ public class IdadeMensagem implements Mensagem {
 
     @Override
     public String criaMensagem(String msg){
-        return "tenho 3 semanas e você? informe apenas a idade por favor!";
+        return "tenho 3 semanas e você, quantos anos tem?";
     }
 }

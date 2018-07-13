@@ -34,13 +34,13 @@ public class FaixaEtaria implements Mensagem {
         int i = converteIdade(mensagemContendoIdadeEmString);
         String msg = "";
         if (i > 59) {
-            msg = "Você disse " + mensagemContendoIdadeEmString + "?!!!\n Que legal! você já pertence a terceira idade deve ter muitas histórias para contar.";
+            msg = "Você disse " + mensagemContendoIdadeEmString + "!!!\n Que legal! você já pertence a terceira idade deve ter muitas histórias para contar.";
         } else if (i > 29) {
-            msg = "Você disse " + mensagemContendoIdadeEmString + "?!!!\n Que bacana! você já é um adulto.";
+            msg = "Você disse " + mensagemContendoIdadeEmString + "!!!\n Que bacana! você já é um adulto.";
         } else if (i > 15) {
-            msg = "Você disse " + mensagemContendoIdadeEmString + "?!!!\n  Uaaauuu! você ainda é bem jovem";
+            msg = "Você disse " + mensagemContendoIdadeEmString + "!!!\n  Uaaauuu! você ainda é bem jovem";
         } else if (i > 1) {
-            msg = "Você disse " + mensagemContendoIdadeEmString + "?!!!\n Que legal! você é uma criança eu também sou criança";
+            msg = "Você disse " + mensagemContendoIdadeEmString + "!!!\n Que legal! você é uma criança eu também sou criança";
         }
         return msg;
     }
@@ -58,7 +58,8 @@ public class FaixaEtaria implements Mensagem {
         return idadeConvertida;
     }
 
-    private String alterarMensagemIdadeNumerica(String msg) {
+    private String alterarMensagemIdadeNumerica(String mensagemUsuario) {
+        String msg = mensagemUsuario;
         String novaFrase = "";
         if (msg.contains("1")) {
             novaFrase = msg.replace(msg, "10");
@@ -82,7 +83,8 @@ public class FaixaEtaria implements Mensagem {
         return novaFrase;
     }
 
-    private String alterarMensagemIdadePorExtenso(String msg) {
+    private String alterarMensagemIdadePorExtenso(String mensagemUsuario) {
+        String msg = mensagemUsuario;
         String novaFrase = "";
         if (msg.contains("dez")) {
             novaFrase = msg.replace(msg, "10");

@@ -1,14 +1,13 @@
 package xyz.cavalheiro.bot.postparamessenger;
 
 import xyz.cavalheiro.bot.mensagens.*;
-
 import java.util.Arrays;
 import java.util.List;
 
 public class MensagemDeResposta {
 
-    static List<Mensagem> mensagens = Arrays.asList(new IdadeMensagem(), new NomeMensagem(),new FaixaEtaria()
-            ,new DefaultMensagem());
+    private List<Mensagem> mensagens = Arrays.asList(new IdadeMensagem(),
+            new NomeMensagem(), new FaixaEtaria(), new DefaultMensagem());
 
     public String manipularMensagemTexto(String msg) {
         String mensagemParaUsuario = "";

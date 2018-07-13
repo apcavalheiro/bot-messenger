@@ -1,9 +1,5 @@
 package xyz.cavalheiro.bot.model.mapeamentoentrada;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import xyz.cavalheiro.bot.model.mapeamentoentrada.BodyEntrada;
-
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class SenderIdEMensagem {
 
     private String senderId;

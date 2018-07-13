@@ -9,16 +9,15 @@ import xyz.cavalheiro.bot.model.mapeamentoentrada.SenderIdEMensagem;
 
 public class PayloadResposta {
     MensagemDeResposta mensagemDeResposta = new MensagemDeResposta();
-    PostMessenger respondeMessenger = new PostMessenger();
+    PostMessenger postMessenger = new PostMessenger();
 
-    public void enviarMensagem(SenderIdEMensagem capturaIdEMensagem) {
-        String messagingType = "RESPONSE";
-        String senderId = capturaIdEMensagem.getSenderId();
-        String message = capturaIdEMensagem.getReceivedMessage();
+    public void enviarMensagem(SenderIdEMensagem idEMensagem) {
+        String senderId = idEMensagem.getSenderId();
+        String message = idEMensagem.getReceivedMessage();
         String mensagemParaUsuario = mensagemDeResposta.manipularMensagemTexto(message);
         RecipientSaida recipientSaida = new RecipientSaida(senderId);
         MessageSaida messageSaida = new MessageSaida(mensagemParaUsuario);
-        BodySaida body = new BodySaida(messagingType, recipientSaida, messageSaida);
+        BodySaida body = new BodySaida(recipientSaida, messageSaida);
         ObjectMapper objectMapper = new ObjectMapper();
         String payLoadResposta = "";
         try {
@@ -26,6 +25,6 @@ public class PayloadResposta {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-        respondeMessenger.postMessenger(payLoadResposta);
+        postMessenger.postMessenger(payLoadResposta);
     }
 }
