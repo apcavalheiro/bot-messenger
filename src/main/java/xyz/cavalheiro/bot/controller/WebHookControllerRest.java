@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import xyz.cavalheiro.bot.model.mapeamentoentrada.BodyEntrada;
+import xyz.cavalheiro.bot.model.entradamessenger.BodyEntrada;
 import xyz.cavalheiro.bot.postparamessenger.PayloadResposta;
-import xyz.cavalheiro.bot.model.mapeamentoentrada.SenderIdEMensagem;
+import xyz.cavalheiro.bot.model.entradamessenger.SenderIdEMensagem;
 
 @RestController
 @RequestMapping(value = "/bot")

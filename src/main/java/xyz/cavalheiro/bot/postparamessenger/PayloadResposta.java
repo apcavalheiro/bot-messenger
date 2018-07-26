@@ -2,10 +2,10 @@ package xyz.cavalheiro.bot.postparamessenger;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import xyz.cavalheiro.bot.model.mapeamentosaida.BodySaida;
-import xyz.cavalheiro.bot.model.mapeamentosaida.MessageSaida;
-import xyz.cavalheiro.bot.model.mapeamentosaida.RecipientSaida;
-import xyz.cavalheiro.bot.model.mapeamentoentrada.SenderIdEMensagem;
+import xyz.cavalheiro.bot.model.saidamessenger.BodySaida;
+import xyz.cavalheiro.bot.model.saidamessenger.MessageSaida;
+import xyz.cavalheiro.bot.model.saidamessenger.RecipientSaida;
+import xyz.cavalheiro.bot.model.entradamessenger.SenderIdEMensagem;
 
 public class PayloadResposta {
     MensagemDeResposta mensagemDeResposta = new MensagemDeResposta();
